@@ -12,9 +12,12 @@ Currently using python3:
 	-pip3 install --upgrade numpy
 
 
+Using TensorBoard to monitor model training:
+-in code:
+	-TensorBoard(log_dir="tensorBoard/".format(time()), write_images=True, write_graph=True)
 
-
-
+-in Terminal:
+	- tensorboard --logdir="tensorBoard/"
 
 
 
