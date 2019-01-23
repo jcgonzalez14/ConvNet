@@ -1,0 +1,28 @@
+Instructions/Cheatsheet for Jupyter Notebook:
+
+-CD to place where .ipynb file is
+	-shortcut: cd Documents/website/Neural_Networks
+
+-Run: jupyter notebook
+
+
+
+Currently using python3:
+-to update packages:
+	-pip3 install --upgrade numpy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
