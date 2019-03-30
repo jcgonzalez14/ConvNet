@@ -20,6 +20,8 @@ Using TensorBoard to monitor model training:
 	- tensorboard --logdir="tensorBoard/"
 
 
+Hint:
+-to comment out code: use "control+/"
 
 
 
