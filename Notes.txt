@@ -1,0 +1,5 @@
+Notes:
+
+3/31/19
+ - importing VGGFace was not working so I had to go to /usr/local/lib/python3.6/dist-packages/keras_vggface/models.py to change to by changing period to underscore:
+	- from keras_applications.imagenet_utils import _obtain_input_shape 
