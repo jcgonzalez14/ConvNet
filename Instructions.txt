@@ -22,8 +22,8 @@ Using TensorBoard to monitor model training:
 
 Hint:
 -to comment out code: use "control+/"
-
-
+-to run cell: use "control+return"
+-to change theme: jt -l [theme]
 
 
 
