@@ -2,7 +2,7 @@ Notes:
 
 3/31/19
  - importing VGGFace was not working so I had to go to /usr/local/lib/python3.6/dist-packages/keras_vggface/models.py to change to by changing period to underscore:
-	- from keras_applications.imagenet_utils import _obtain_input_shape 
+ - from keras_applications.imagenet_utils import _obtain_input_shape 
 
 
 Things to work on:
@@ -10,4 +10,13 @@ Things to work on:
  - CNN visualized 
  - Add Google Analytics tracking code
  - include links/estimated reading time 
- - 
+
+
+Parameters to adjust:
+ - batch 
+ - epochs
+ - optimizer
+ - loss
+ - model 
+
+Cropping the pictures closer to the users face helps model accuracy rates but have yet to see those high rates for the validation set. 
