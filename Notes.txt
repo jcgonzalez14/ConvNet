@@ -20,3 +20,7 @@ Parameters to adjust:
  - model 
 
 Cropping the pictures closer to the users face helps model accuracy rates but have yet to see those high rates for the validation set. 
+- Possible reason is the model is not regularized properly or learning rate is too large
+
+Model Loss Explained:
+-Loss: is a number indicating how bad the model prediction was. Therefore, high loss means bad prediction versus a low loss means a good prediction
