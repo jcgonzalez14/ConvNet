@@ -24,3 +24,8 @@ Cropping the pictures closer to the users face helps model accuracy rates but ha
 
 Model Loss Explained:
 -Loss: is a number indicating how bad the model prediction was. Therefore, high loss means bad prediction versus a low loss means a good prediction
+
+*It seems that by cropping the images closer to the faces, improves the accuracy of the model.
+
+*Initially, the train and validation had 50/50 of the data with 15 faces each class. By doing 24 faces for train and 6 for validation, the training and, more importantly, the validation rates when way up hovering over 90%. 
+
