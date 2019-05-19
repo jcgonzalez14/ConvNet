@@ -28,4 +28,5 @@ Model Loss Explained:
 *It seems that by cropping the images closer to the faces, improves the accuracy of the model.
 
 *Initially, the train and validation had 50/50 of the data with 15 faces each class. By doing 24 faces for train and 6 for validation, the training and, more importantly, the validation rates when way up hovering over 90%. 
+-downside: accuracy would go up and down suggesting either overfitting or the model is learning too fast.
 
