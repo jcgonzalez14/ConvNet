@@ -30,3 +30,4 @@ Model Loss Explained:
 *Initially, the train and validation had 50/50 of the data with 15 faces each class. By doing 24 faces for train and 6 for validation, the training and, more importantly, the validation rates when way up hovering over 90%. 
 -downside: accuracy would go up and down suggesting either overfitting or the model is learning too fast.
 
+*With the original 3 classes of Messi, Neymar and Ronaldo, the CNN outputted higher probabilities for Ronaldo. However, with the addition of Curry, OBJ, Rodgers and Kyrie, the Neymar class provides the highest probabilities. Interesting.
