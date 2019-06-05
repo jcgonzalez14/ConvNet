@@ -14945,24 +14945,20 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="CNN-Facial-Recognition">CNN Facial Recognition<a class="anchor-link" href="#CNN-Facial-Recognition">&#182;</a></h1><p><img src="images/facial.jpg" alt="facial"></p>
-<p><a href="#intro">1. Introduction</a></p>
-<p><a href="#convo">2. Convolution Neural Network</a></p>
-<p><a href="#app">3. Applied</a></p>
-<p><a href="#conclude">4. Conclusion</a></p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="CNN-Facial-Recognition">CNN Facial Recognition<a class="anchor-link" href="#CNN-Facial-Recognition">&#182;</a></h1><p><img src="https://github.com/jcgonzalez14/Neural_Networks/blob/master/images/facial3.jpg?raw=1" alt="facial"></p>
+<p><a href="https://jcgonzalez14.github.io">Julio Gonzalez</a></p>
+<p>June 4, 2019</p>
+<p>Estimated Reading time: ~14 mins</p>
 <p><a href="https://twitter.com/share?&
 url=https://jcgonzalez14.github.io/Sentiment_Analysis.html&
-hashtags=NLP, datascience, R, Sentiment Analysis&
+hashtags=deeplearning, datascience, python, neural network&
 text=Natural-Language Processing" class="twitter-share-button" data-show-count="false"></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
-<iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fjcgonzalez14.github.io%2FSentiment_Analysis.html&layout=button&size=small&mobile_iframe=true&width=59&height=20&appId" width="59" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+<iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fjcgonzalez14.github.io%2FSentiment_Analysis.html&layout=button&size=small&mobile_iframe=true&width=59&height=20&appId" width="59" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe><p><br></p>
+<p><a href="#intro">1. Introduction</a></p>
+<p><a href="#neuralnet">2. Neural Networks</a></p>
+<p><a href="#applied">3. Applied</a></p>
+<p><a href="#conclude">4. Conclusion</a></p>
+
 </div>
 </div>
 </div>
@@ -14982,7 +14978,7 @@ text=Natural-Language Processing" class="twitter-share-button" data-show-count="
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><a id="convo"></a></p>
+<p><a id="neuralnet"></a></p>
 <h2 id="2.-Neural-Networks">2. Neural Networks<a class="anchor-link" href="#2.-Neural-Networks">&#182;</a></h2><p>Okay, so before we dive into what exactly a convolution neural network is let us strip it down to it's essence, just a plain and simple vanilla neural network. Like the depths of the universe, you can go as far, wide and deep into this topic and you'll probably never get to the bottom of it because of the presence of a very active area of research that is pushing the field even further.</p>
 <p>So what exactly is a neural network? Well, it's actually pretty simple: a function. A function that can be very complex but a function nevertheless.</p>
 <p>At its most basic core, a neural network has 3 parts:</p>
@@ -14993,7 +14989,9 @@ text=Natural-Language Processing" class="twitter-share-button" data-show-count="
 </ul>
 <p><img src="https://github.com/jcgonzalez14/Neural_Networks/blob/master/images/basic_nn.jpg?raw=1" alt="basic nn"></p>
 <p>As the name suggests, the input layer is where the data is feed into the network. The mysterious hidden layer is where all the action is happening and output layer is the result you wish to acquire.</p>
-<p>In relation to a function, take the ubiquitous function of simple line found in every Algebra class: y = mx+b. The x in this case is the input layer. The m and b are hidden layer and the y is the output layer.</p>
+<p>To make this more relatable, take the ubiquitous line function we have all been exposed to in Algebra class: \begin{align}
+y &amp; = mx + b.
+\end{align}The <em>x</em> in this case is the input layer. The <em>m</em> and <em>b</em> are hidden layer and the <em>y</em> is the output layer. If you know the x cordinate and the slope of the line, you can calculate what the y cordinate would be for that line.</p>
 <p>Easy right?</p>
 <p>A convolution neural network does the exact same thing by using an image as input, crunches some numbers then does a prediction as an output.</p>
 <p><img src="https://github.com/jcgonzalez14/Neural_Networks/blob/master/images/cnn.png?raw=1" alt="cnn"></p>
@@ -15006,7 +15004,7 @@ text=Natural-Language Processing" class="twitter-share-button" data-show-count="
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><a id="app"></a></p>
+<p><a id="applied"></a></p>
 <h2 id="3.-Application">3. Application<a class="anchor-link" href="#3.-Application">&#182;</a></h2><p>If you ever wondered how in the world your new Iphone has the capacity to determine whether or not it's your face or someone else's face with amazing accuracy to unlock your phone using Face ID? Well you have just witnessed the power of neural networks first hand. Apple trained the neural networks using billions of images then took the model and installed it into your iphone. Pretty cool, huh?</p>
 <p>Since neural networks are great at determining who's face that image belongs to, what if we could weild this technology to find my celebrity doppleganger.</p>
 <p>In my much younger (and more atheltic days), some of my friends would say I resembled the soccer superstar Neymar while others would disagree. Well, let's use a neural network to settle the debate for us. Let's feed it a bunch of pictures for different individuals, including Neymar, and have the CNN decide who I resemble the most.</p>
@@ -15246,7 +15244,7 @@ Epoch 15/15
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[0]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#need to hide this cell or run 1 code cell then delete this one </span>
@@ -15285,37 +15283,6 @@ Epoch 15/15
 </pre></div>
 
 </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stderr output_text">
-<pre>Using TensorFlow backend.
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Finished Loading Model
-Loaded associated weights for model
-Found 42 images belonging to 7 classes.
-</pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -15584,13 +15551,13 @@ Found 42 images belonging to 7 classes.
       </div>
       <div class="row">
         <div class="col-lg-4 mx-auto text-center">
-          <i class="fa fa-linkedin-square fa-3x mb-3 sr-contact"></i>
+          <i class="fa fa-linkedin-square fa-3x mb-8 sr-contact"></i>
           <p>
            <a href="https://www.linkedin.com/in/julio-gonzalez-448981144" target="_blank">Linkedin</a>
           </p>
         </div>
-       <div class="col-lg-4 mx-auto text-center">
-          <i class="fa fa-github-square fa-3x mb-3 sr-contact"></i>
+       <div class="col-lg-18 mx-auto text-center">
+          <i class="fa fa-github-square fa-15x mb-18 sr-contact"></i>
           <p>
            <a href="https://github.com/jcgonzalez14" target="_blank">Github</a>
           </p>
